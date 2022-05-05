@@ -1,0 +1,65 @@
+//Pointers and Bubbles
+
+The goal: is to write a program that implement the swap algorithm with pointers
+
+The input: Using pointers to navigate through the array swap from low 
+           to the high number
+
+The output: Sorting a list from an decreasing to an increasing number
+
+
+
+The Step: 
+     -start with the function prototypes.(printValues(), sort(), swap())
+      without puting any values in them.
+     
+      - creating an array called values[]
+    
+      -define main function
+        
+         *Inside this main printing out the array
+          with sorting each element to an ascending order
+          
+          *After that we print the printValues which gonna give 
+           me a sorting array like [1,2,3,4,5,6,7,8,9]
+           
+          *write return(0) command
+
+       -end the main function
+
+   
+       -emplementing swap function passing 2 argument to it as pointers
+           (int *i, int *j)
+          
+          #creating a variable
+          #assigning that variable to the pointer *i
+          #assigning *i to the pointer *j
+          #assigning *j to the the first variable to complete the swap
+
+        -end the swap the function
+
+        -emplementing the sort function with no argument
+         
+          #assign 2 variable (int i, j)
+          
+          #using first for loop to ascending the element of the list
+          
+             #using the second for loop for comparing the values
+               
+                  #using if statment to compare the emlement of the array
+               
+                      # swaping the address of the values
+                       
+                      # printing the values
+                   #end of if
+              #end of the second for loop
+            #end of the first for loop
+
+          -end the sort function
+
+         -emplementing printvalue function
+            
+             #using for loop to print out the value
+              in every itration
+          
+         -end of printvalues function
